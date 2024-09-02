@@ -1,6 +1,6 @@
 name: Hello World Workflow (Dispatch)
 
-# Trigger the workflow via github console
+# Trigger the workflow via github console - 'run workflow' button
 on:
   workflow_dispatch:
 

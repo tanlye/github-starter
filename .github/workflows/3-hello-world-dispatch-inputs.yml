@@ -17,7 +17,7 @@ jobs:
         run: echo "Hello, World!"
 
       - name: Print Your Name
-        run: echo "Hello, ${{ github.event.inputs.name }}!" # Replace with your name
+        run: echo "Hello, ${{ github.event.inputs.name }}!" # Will request a 'name' entry during dispatch
 
       - name: Print Multiple Lines
         run: |
